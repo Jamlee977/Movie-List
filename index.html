@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Watch List</title>
+
+</head>
+<body>
+    <h1><b>Add a Movie to Watch List</b><br></h1>
+    <form>
+        <p id="movie-title-par"><label for="movie-title">Movie Title: 
+        <input id="movie-title" type="text" class="title">
+        </label></p>
+        
+
+        <div>
+            <p id="lang-par"><label for="movie-lang">Movie Language: </span>
+            <input type="radio" class="movie-lang" name="lang" value="English" checked>
+            <label for="English">English</label>
+
+            <input type="radio" class="movie-lang" name="lang" value="العربية">
+            <label for="arabic">العربية</label>
+            </p>
+        </div>
+
+        <p id="genre-par"><label for="genre">Movie Genre: </label>
+        <div>
+            <select class="select-menu" id="genre" name="genre">
+                <option class="option" value="Action">Action</option>
+                <option class="option" value="Thriller">Thriller</option>
+                <option class="option" value="Comedy">Comedy</option>
+                <option class="option" value="Animation">Animation</option>
+            </select>
+            </p>
+        </div>
+
+        <br>
+
+        <div class="r-rated">
+            <input id="r-rated" type="checkbox"value="r-rated">
+            <label class="r-rated-label" for="r-rated"><b>This movie is R-Rated (+18)</b></label>
+        </div>
+        <br>
+
+        <div>
+            <button type="button" id="btn">Add Movie</button>
+        </div>
+    </form>
+    <hr><br>
+    <div>
+        <table id="table-of-elements">
+            <tr class="rows">
+                <th>#</th>
+                <th>Movie Title</th>
+                <th>Movie Language</th>
+                <th>Movie Genre</th>
+                <th>Is it R-Rated?</th>
+                <th>Actions</th>
+            </tr>
+
+        </table>
+    </div>    
+</body>
+</html>

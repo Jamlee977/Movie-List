@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+h1 {
+    font-size: 40px;
+}
+#movie-title-par {
+    font-size: 26px;
+    font-weight: bold;
+}
+#lang-par {
+    font-size: 24px;
+    font-weight: bold;
+}
+#genre-par {
+    font-size: 24px;
+    font-weight: bold;
+}
+select {
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    background: #e3e4e3;
+    border: 0 !important;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1em;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    text-align: center;
+}
+.select-menu {
+    position: relative;
+    display: block;
+    width: 6em;
+    height: 2em;
+    background: #e3e4e3;
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+input[type=checkbox] {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border-radius: 0.3em;
+}
+.r-rated-label {
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+#btn {
+    background-color: #e3e4e3;
+    border: none;
+    padding: 4px 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 0.3em;
+}
+.action-button {
+    background-color: #e1f4e1;
+    border: none;
+    padding: 4px 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 0.3em;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.3em;
+    color: black;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+input[type=text] {
+    width: 100;
+    padding: 2px 12px;
+    margin: 5px;    
+    box-sizing: border-box;
+    font-size: 0.7em;
+}
